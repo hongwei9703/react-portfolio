@@ -1,13 +1,12 @@
 "use client"
 import Head from "next/head";
-import { BsFillMoonStarsFill, BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
+import { BsFillMoonStarsFill } from 'react-icons/bs'
 import { AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 import Image from "next/legacy/image";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import avatar from "../../public/avatar.png";
 import { Typewriter } from "react-simple-typewriter";
 // import resume from "../../public/HongWei_CV_2023.pdf";
-import {RxDotFilled} from 'react-icons/rx'
 import Experience from "../components/Experience";
 import Form from "@/components/Form";
 import ResponsiveCarousel from "@/components/ResponsiveCarousel";
@@ -24,8 +23,7 @@ export default function Home() {
             <h1 className="text-xl dark:text-white">yanhongwei.</h1>
             <ul className="flex items-center">
               <li>
-              <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=" cursor-pointer text-2xl dark:text-white"
-                />
+              <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=" cursor-pointer text-2xl dark:text-white"/>
               </li>
               <li>
                 <a className="bg-gradient-to-r from-blue-500  to-blue-300 text-white px-4 py-2 border-none rounded-md ml-8" href="#" download>Resume</a>
@@ -57,9 +55,6 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/hongwei18/" target="_blank" rel='noreferrer' className="linkedin-icon"><AiFillLinkedin /></a>
           </div>
         </section>
-        <Experience />
-        <ResponsiveCarousel/>
-        <Form />
       </main>
       
     </div>
