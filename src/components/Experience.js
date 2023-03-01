@@ -17,7 +17,7 @@ class Experience extends Component {
                         <h3 className="text-lg pt-8 pb-2 font-bold">
                         Coding
                         </h3>
-                        <p className="py-2 text-justify">I've developed and deployed fully responsive websites and mobile applications (Android & iOS) using ReactJS and React Native. I'm currently active in using the following programming languages.</p>
+                        <p className="py-2 text-justify">I&apos;ve developed and deployed fully responsive websites and mobile applications (Android & iOS) using ReactJS and React Native. I&apos;m currently active in using the following programming languages.</p>
                         <h4 className="text-blue-700 font-bold pt-5">Skills & Tools</h4>
                         <div className="flex gap-4 m-auto justify-center text-5xl my-4">
                         <SiHtml5 className="fill-orange-400" />
@@ -35,7 +35,7 @@ class Experience extends Component {
                         Web Designs and Graphic Designs
                         </h3>
                         <p className="py-2 text-justify">
-                        6 Design Principles I've learned so far: <span className="font-bold text-blue-500">Balance, Hierarchy, Propotion, Contrast, Repitition, White Space</span>.
+                        6 Design Principles I&apos;ve learned so far: <span className="font-bold text-blue-500">Balance, Hierarchy, Propotion, Contrast, Repitition, White Space</span>.
                         Years of experience in designing from Graphics Design to Web Design.
                         </p>
                         <h4 className="text-blue-700 font-bold pt-5">Skills & Tools</h4>

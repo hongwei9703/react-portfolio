@@ -61,8 +61,8 @@ const Form = () => {
         {pokemon && (
             <div>
               <h2>{pokemon.name}</h2>
-              <img src={pokemon.sprites.front_default} alt={pokemon.name} />
-              {pokemon.abilities.map(ability => <span>{ability.ability.name}</span>)}
+              <Image src={pokemon.sprites.front_default} alt={pokemon.name} />
+              {pokemon.abilities.map((ability,index) => <span key={index}>{ability.ability.name}</span>)}
             </div>
         )}
         {error && <p>{error}</p>}

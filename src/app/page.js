@@ -37,7 +37,7 @@ export default function Home() {
           </div>
           <div className="text-center p-10 py-5">
             <h2 className="text-5xl py-2 text-blue-500 font-semibold">Hong Wei</h2>
-            <h3 className="text-3xl py-2 bg-clip-text bg-gradient-to-r from-blue-300 via-blue-500 to-teal-700 text-transparent font-bold md:text-3xl">I'm a passionate
+            <h3 className="text-3xl py-2 bg-clip-text bg-gradient-to-r from-blue-300 via-blue-500 to-teal-700 text-transparent font-bold md:text-3xl">I&apos;m a passionate
             <Typewriter
               words={[' Frontend Developer', ' UI/UX Designer']}
               loop
@@ -49,7 +49,7 @@ export default function Home() {
             /></h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl text-justify">I have experience with HTML, SASS/ SCSS, ReactJS,
               JavaScript and have a strong understanding of responsive web design and cross
-              browser compatibility. I'm constantly learning and staying up-to-date on the latest
+              browser compatibility. I&apos;m constantly learning and staying up-to-date on the latest
               web development technologies and frameworks.</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 pb-3 text-gray-600 dark:text-gray-400">
