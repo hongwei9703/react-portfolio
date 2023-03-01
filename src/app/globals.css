@@ -126,10 +126,10 @@ a {
 
 .instagram-icon:hover{
   color: #EA738DFF;
-  transition: linear .5s;
+  transition: linear .3s;
 }
 
 .linkedin-icon:hover{
   color: rgb(106, 152, 226);
-  transition: linear .5s;
+  transition: linear .3s;
 }
